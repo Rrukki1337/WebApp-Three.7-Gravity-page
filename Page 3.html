@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebApp Page 3</title>
+    <script src="https://kit.fontawesome.com/6e4a2e6a85.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="Page 3.css" />
+</head>
+
+
+
+<header>
+    <div
+    class="header">
+    
+    <a
+    href="#default"
+    class="logo">
+    <img src="pics/Logo.png">
+    </a>
+
+    <form class="theme-picker" action="">
+        <div>
+            <i class="fa-sharp fa-solid fa-moon"></i>
+            <input type="radio" name="theme" id="light" checked>
+            
+            <input type="radio" name="theme" id="dark">
+            <i class="fa-solid fa-sun"></i>
+        </div>
+            
+
+    </form>
+    
+    <div
+    class="header-right">
+    
+    <a
+    href="history">Home</a>
+    
+    <a
+    href="contact">Buy/Rent</a>
+    
+    <a
+    href="news">Newsroom</a>
+    
+    </div>
+    
+    </div>
+    
+
+</header>
+
+
+
+<body>
+
+    <div class="body">
+        <div class="top-part">
+            <h1>Table of owners</h1>
+
+            <div class="search-box">
+                <input class="search-txt" type="text" name="" placeholder="Type to search for owners..">
+                <a class="search-btn" href="#">
+                    <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                </a>
+            </div>
+                
+            <table class="content-table">
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Phone Number</th>
+                        <th>Email</th>
+                        <th>Password</th>
+                        <th>Ethnicity</th>
+                        <th>Plot #</th>
+                        <th></th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Martin</td>
+                        <td>Mocker</td>
+                        <td>0192834891</td>
+                        <td>dasdasda@asda</td>
+                        <td>************</td>
+                        <td>Martian</td>
+                        <td>#1</td>
+                        <td>
+                        <a  href="#popup2"><i class="fa-solid fa-trash"></i></a>
+                            <div id="popup2" class="overlay" >
+                                <div class="popup2" href="">
+                                    <h1>Please confirm password
+                                        <input type="password" placeholder="Confirm password..">
+                                    </h1>
+                                    <a class="close" href="#">&times;</a>
+                                </div>
+                            </div>
+                        </td>
+                    
+                        
+                        
+                    </tr>
+                        
+                    <tr>
+                        <td>Arlind</td>
+                        <td>Stolliqi</td>
+                        <td>0192834891</td>
+                        <td>qdeqweq@eqweq</td>
+                        <td>**********</td>
+                        <td>Earthling</td>
+                        <td>#3</td>
+                        <td>
+                        <a  href="#popup2"><i class="fa-solid fa-trash"></i></a>
+                            <div id="popup2" class="overlay" >
+                                <div class="popup2" href="">
+                                    <h1>Please confirm password
+                                        <input type="password" placeholder="Confirm password..">
+                                    </h1>
+                                    <a class="close" href="#">&times;</a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Elon</td>
+                        <td>Musk</td>
+                        <td>213125849</td>
+                        <td>ellelele@eee.com</td>
+                        <td>*********</td>
+                        <td>Martian</td>
+                        <td>#2</td>
+                        <td>
+                        <a  href="#popup2"><i class="fa-solid fa-trash"></i></a>
+                            <div id="popup2" class="overlay" >
+                                <div class="popup2" href="">
+                                    <h1>Please confirm password
+                                        <input type="password" placeholder="Confirm password..">
+                                    </h1>
+                                    <a class="close" href="#">&times;</a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    
+                </tbody>
+
+            </table>
+        
+          
+            
+        </div>
+        <div class="container">
+            <div class="heading">Registration</div>
+            <form action="#">
+                <div class="card-details">
+                    <div class="card-box">
+                        <span class="details">Last Name</span>
+                        <input type="lname" placeholder="Enter your last name here.." >
+                    </div>
+                    <div class="card-box">
+                        <span class="details">First Name</span>
+                        <input type="fname" placeholder="Enter your first name here..">
+                    </div>
+                    <div class="card-box">
+                        <span class="details">Phone Number</span>
+                        <input type="phone" placeholder="Enter your phone number here.." >
+                    </div>
+                    <div class="card-box">
+                        <span class="details">Email</span>
+                        <input type="email" placeholder="Enter your email here.." >
+                    </div>
+                    <div class="card-box">
+                        <span class="details">Password</span>
+                        <input type="password" placeholder="Enter your password here.." >
+                    </div>
+                    <div class="card-box">
+                        <span class="details">Plot #</span>
+                        <input type="password" placeholder="Enter the prefered plot here.." >
+                    </div>
+                    
+                </div>
+                <div class="circal-form">
+                    <span class="circal-title">Ethnicity</span>
+                    <div class="category">
+                        <input type="radio" name="gender">Martian
+                        <input type="radio" name="gender">Earthling
+                    </div>
+                </div>
+                <div class="button">
+                    <a class="button1" href="#popup1">Register now</a>
+                    
+                </div>
+                
+                        
+                <div id="popup1" class="overlay" >
+                    <div class="popup" href="">
+                        <h1>Welcome home, Martian!</h1>
+                        <h3>We have successfully received your information and will add it to the Table of owners.</h3>
+                        <h4>You can now brag about owning real estate on Mars. Congratulations!</h4>
+                        <a class="close" href="#">&times;</a>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+
+
+<footer>
+    <div class="col-1">
+        <h3><b>USEFUL LINKS</b></h3>
+        <a href="#">Home</a>
+        <a href="#">History</a>
+        <a href="#">Buy/Rent</a>
+        <a href="#">News</a>
+    </div>
+    <div class="col-2">
+        <h3><b>NEWSLETTER</b></h3>
+        <form>
+            <input type="email" placeholder="Your email address.." required>
+            <br>
+            <button type="submit"><b>SUBSCRIBE NOW</b></button>
+        </form>
+    </div>
+    <div class="col-3">
+        <h3><b>CONTACT</b></h3>
+        <p>Building 5, Alteburgstraße 150<br><br>72762 Reutlingen, Germany, Earth</p>
+        <img src="pics/Logo.png">
+</footer>
+<div
+class="Terms">2122 Three.7 gravity. All rights reserved.
+</div>
+
+
+
+
+</html>
